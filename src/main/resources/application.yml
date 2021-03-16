@@ -1,0 +1,6 @@
+server:
+  port: 8081
+persion:
+  name: pp1
+  email: xingbg@sina.com
+  extend: {sso-01: default-inst,sso-02: default-inst}
