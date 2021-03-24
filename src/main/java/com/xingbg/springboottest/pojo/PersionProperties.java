@@ -7,11 +7,11 @@ import javax.validation.constraints.Email;
 import java.util.Map;
 
 @ConfigurationProperties(prefix = "persion")
-@Validated
+//@Validated
 public class PersionProperties {
     private String name;
 
-    @Email(message = "请输入邮件格式")
+    //@Email(message = "请输入邮件格式")
     private String email;
 
     private Map<String,String> extend;
